@@ -14,6 +14,6 @@ end
 #sample usage
 
 f = LinearHypothesisFunction.new(1,4)
-p f.of(0)
-p f.of(2)
-p f.of(6)
+p f.of(0) #=> 1
+p f.of(2) #=> 9
+p f.of(6) #=> 25
